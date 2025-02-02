@@ -5,6 +5,7 @@ import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
+import FlexContainer from './components/FlexContainer'
 
 const Portfolio = () => {
     return (
@@ -26,6 +27,7 @@ const Portfolio = () => {
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
+            {/* <FlexContainer /> */}
         </BrowserRouter>
     )
 }
