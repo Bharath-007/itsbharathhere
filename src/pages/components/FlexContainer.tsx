@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './FlexContainer.scss'; // Assuming you save your CSS in this file
+import { Link } from 'react-router-dom';
 
 const FlexContainer = () => {
     const [loading, setLoading] = useState(true);
