@@ -26,7 +26,7 @@ const Icon: FC = () => {
         stroke: "#61dafb",
         strokeWidth: 3,
         strokeLinejoin: "round",
-        strokeLinecap: "round",
+        // strokeLinecap: "round",
       }}
     >
       <motion.path

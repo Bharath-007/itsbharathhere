@@ -1,15 +1,14 @@
-import FlexContainer from "./pages/components/FlexContainer";
-import Portfolio from "./pages/Portfolio";
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';  // Only RouterProvider
+import { router } from './routes/routes';
+import FloatingDock from './pages/components/FloatingDock';
 
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className="text-center">
-      <FlexContainer /> 
-      <Portfolio />
-      {/* <TextReveal text="Hello world"/> */}
-    </div>
+    <RouterProvider router={router} />
   );
-}
+};
 
 export default App;
