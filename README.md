@@ -72,4 +72,4 @@ Feel free to dive in! [Open an issue](https://github.com/matozz/vite-react-frame
 
 ## License
 
-[MIT](LICENSE) © Matoz
+[MIT](LICENSE) © Bharath
